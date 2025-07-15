@@ -1,0 +1,89 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Aims
+In this assignment, you will need to develop a dynamic website - web application “EasyEV-
+Charging”.
+The “EasyEV-Charging” is offering electrical vehicle charging stations at several locations.
+Each location has limited stations (a limited number of users can charge the EV cars at the
+same time).
+There are two types of users: Administrator and User. Both types of users should have
+options to register or login into the app. The User should check-in to charge the EV car and
+check-out when finished with charging.
+The User can: List all locations with currently available EV stations, Search for location,
+Check-in for charging (if there is an available station at the location), Check-out, List the
+charging locations the user has used in the past (already checked out), List the charging
+location(s) that is currently using (currently checked-in). When the user is checking-in for a
+charging, should insert the date/time and receive confirmation that the charging started and
+info regarding the charging costs. When charging is completed and the user is checking out,
+should get a notification with the total cost that needs to be paid for the charging.
+The Administrator can: Insert/Edit charging locations into the app. The Administrator should
+be also able to List all charging locations, List all charging locations with currently available
+stations, List all charging locations that are full, Search for a charging location, List all users,
+List all users currently checked-in at charging location(s).
+For every user (Administrator or User) there should be information about: ID (unique ID),
+Name, Phone, e-mail and Type.
+For every charging location, there should be information about: LocationID (unique ID),
+Description, Number of charging stations, Cost per hour.
+The Search options can be done by a combination of different fields (e.g. LocationID,
+Description). The user should be able to search by entering only part of the search term.
+Entered information needs to be validated in the PHP script.
+The payment is not part of this assignment (the provided solution should not have that
+functionality).
+Requirements
+1. Design Requirements
+The website should have interfaces for:
+- Registering/Login the users;
+- Insert/Edit charging location;
+- Check-in;
+- Check-out;
+- Search charging location(s);
+- Search user(s);
+- List charging locations;
+- List Users.
+2. Functionalities
+− Both types of users should be able to register into the app;
+− Both types of users should be able to login into the app;
+− Both types of users should be able to logout;
+− Both types of users should be able to search charging locations;
+− The Administrator should be able to insert/edit charging location into the app;
+− The Administrator should be able to list: all charging locations, locations with
+currently available charging stations, charging locations that are currently full;
+− The Administrator should be able to list: all users, all users checked-in for charging;
+− The User should be able to list: all locations with currently available charging
+stations, all charging locations used in the past, all locations at which is currently
+charging;
+− The User should be able to check-in for a charging (with notice for the date/time the
+charging started and info regarding the charging costs);
+− The User should be able to check-out of a charging station (with notice of a total
+cost that needs to be paid).
+3. Other Expectations
+− The students should create classes and database with tables based on the
+requirements of the assignment;
+− The website should have good interfaces and navigation through the given options.
+
+
+Submission (Part 1)
+1. Prepare a report that has: header
+------------------------------------------------------
+My name:
+My student number:
+My email address:
+-------------------------------------------------------
+any requirements, remarks or readme for your website. The report
+ should also include
+the list of web site’s files, a brief description of each file and class, a short description of
+the database tables.
+2. Submit a ZIP file containing all assignment files and your report (in .pdf) over Moodle
+submission link.
+3. You are not required to submit a hardcopy of the report, nor copy out all the source
+code. Make sure you have included all the information needed (including script of the
+database), so your solution can be run in a browser.
+
+Submission (Part 2)
+Create a short video (2-3 minutes) that will present the functionalities of the created website and
+the backend including the changes/coding done in Wordpress.
+***In the video you need to clearly explain how you changed the theme, and clearly explain
+the php code written for the plugin
